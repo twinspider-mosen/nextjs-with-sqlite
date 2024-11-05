@@ -1,17 +1,11 @@
-// "use client"
-// import { Button } from '@/components/ui/button';
 // import 'dotenv/config';
 // import { drizzle } from 'drizzle-orm/libsql';
 // import { eq } from 'drizzle-orm';
-// import { usersTable } from '@/src/db/schema';
-// import { useEffect } from 'react';
-
-
-
+// import { usersTable } from './db/schema';
   
 // const db = drizzle(process.env.DB_FILE_NAME!);
 
-//  async function main() {
+// export async function main() {
 //   const user: typeof usersTable.$inferInsert = {
 //     name: 'John',
 //     age: 30,
@@ -44,24 +38,4 @@
 //   console.log('User deleted!')
 // }
 
-
-// export default function page() {
-//   return (
-//     <div>
-//       <Button onClick={main} >
-//         Click me
-//       </Button>
-//     </div>
-//   )
-// }
-
-
-
-import { InputForm } from '@/components/InputForm'
-import React from 'react'
-
-export default function page() {
-  return (
-    <div><InputForm/></div>
-  )
-}
+// main();
